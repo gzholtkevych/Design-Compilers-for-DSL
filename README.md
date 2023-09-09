@@ -1,11 +1,13 @@
 <H1><b>V.N. Karazin Kharkiv National University, Ukraine</b></H1>
 <img src='https://drive.google.com/uc?export=view&id=1TGMI1gTIv11v9tq-TOo5tRbH6ln6wScc' width="800" />
 
-# Design Compilers for DSL
+# Розробка компіляторів для предметно-орієнтованих мов /<br/>Design Compilers for DSL
 
-The elective course being proposed for Bachelor's students of the Programme "Theoretical and Applied Computer Science"
+Вибірковий курс для студентів рівня підготовки бакалавр програми «Теоретична та прикладна інформатика» за спеціальністю 122 Комп'ютерні науки.
 
-## **Course Outlines**
+An elective course for students of the bachelor's degree program "Theoretical and Applied Informatics" in the speciality 122 Computer Science.
+
+## Зміст курсу /<br/>Course Outlines
 
 1. The Concept of Domain Engineering
 2. Tools for Domains Modelling
