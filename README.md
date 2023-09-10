@@ -9,6 +9,10 @@
 
 # Розробка компіляторів для предметно-орієнтованих мов /<br/>Design Compilers for DSL
 
+Григорій ЖОЛТКЕВИЧ, проф., д.т.н. / Prof. Grygoriy ZHOLTKEVYCH, DSc
+
+---
+
 Вибірковий курс для студентів рівня підготовки бакалавр програми «Теоретична та прикладна інформатика» за спеціальністю 122 Комп'ютерні науки.
 
 An elective course for students of the bachelor's degree program "Theoretical and Applied Informatics" in the speciality 122 Computer Science.
@@ -16,8 +20,8 @@ An elective course for students of the bachelor's degree program "Theoretical an
 ## Зміст курсу /<br/>Course Outlines
 
 1. Концепція інженерії домену / The Concept of Domain Engineering
-2. Tools for Domains Modelling
-   1. Unified Modelin Language. An Overview
+2. Tools for Domain Modeling
+   1. Unified Modeling Language. An Overview
    2. Structural and Behavioural Models
 3. Formal Spacification Languages
    1. The Concept of a Formal Language
