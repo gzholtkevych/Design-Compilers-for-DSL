@@ -9,7 +9,7 @@ An elective course for students of the bachelor's degree program "Theoretical an
 
 ## Зміст курсу /<br/>Course Outlines
 
-1. The Concept of Domain Engineering
+1. Концепція інженерії домену / The Concept of Domain Engineering
 2. Tools for Domains Modelling
    1. Unified Modelin Language. An Overview
    2. Structural and Behavioural Models
