@@ -22,6 +22,13 @@ An elective course for students of the bachelor's degree program "Theoretical an
       1. Abstract Syntax of a Language
       2. Concrete Syntax of a Language
 4. Compilation Process. An Overview
-5. Lexical Analysis and Scanners
-6. Syntax Analysis and Parsers
-7. Syntax-Directed Translation
+5. Lexical Analysis and Lexers Design
+6. Syntax Analysis and Parsers Design
+7. Syntax-Directed Translation and Translator Design
+
+## Джерела /<br/>Bibliography
+
+1. [Hopcroft, J.E., Motwani, R., and Ullman, J.D. Introduction to automata theory, languages, and computation. Addison-Wesley, 2001.](http://www-2.dc.uba.ar/staff/becher/Hopcroft-Motwani-Ullman-2001.pdf)
+2. [Fowler, M. with Parsons, R. Domain Specific Languages. Addison-Wesley, 2010.](https://martinfowler.com/books/dsl.html)
+3. [Aho, A.V., Ullman, J.D. The theory of parsing, translation, and compiling, vol. 1. Prentice-Hall, Inc., 1972.](https://dl.acm.org/doi/book/10.5555/578789)
+4. [Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D. Compilers: Principles, Techniques and Tools, 2nd edition. Addison-Wesley, 2006.](https://repository.unikom.ac.id/48769/1/Compilers%20-%20Principles%2C%20Techniques%2C%20and%20Tools%20%282006%29.pdf)
