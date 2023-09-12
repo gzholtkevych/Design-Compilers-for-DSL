@@ -20,9 +20,9 @@ An elective course for students of the bachelor's degree program "Theoretical an
 ## Зміст курсу /<br/>Course Outlines
 
 1. Концепція інженерії домену / The Concept of Domain Engineering
-2. Tools for Domain Modeling
-   1. Unified Modeling Language. An Overview
-   2. Structural and Behavioural Models
+2. Інструменти моделювання домену / Tools for Domain Modeling
+   1. Огляд Unified Modeling Language / Unified Modeling Language. An Overview
+   2. Структурні та поведінкові моделі / Structural and Behavioural Models
 3. Concepts of Formal Languages Theory
    1. The Concept of a Formal Language
    2. Semantics of a Language
