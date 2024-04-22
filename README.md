@@ -1,11 +1,11 @@
 <H1><b>V.N. Karazin Kharkiv National University</b></H1>
 <img src='https://drive.google.com/uc?export=view&id=1TGMI1gTIv11v9tq-TOo5tRbH6ln6wScc' width="800" />
-
+<!--  -->
 ---
 
 4, Svobody Sqr, Kharkiv, 61022, Ukraine
 
----
+<!-- ---a^{-1}\cdot e_1 -->
 
 # Розробка компіляторів для предметно-орієнтованих мов /<br/>Design Compilers for DSL
 
@@ -19,10 +19,14 @@ An elective course for students of the bachelor's degree program "Theoretical an
 
 ## Зміст курсу /<br/>Course Outlines
 
-1. Концепція інженерії домену / The Concept of Domain Engineering
-2. Інструменти моделювання домену / Tools for Domain Modeling
-   1. Огляд Unified Modeling Language / Unified Modeling Language. An Overview
-   2. Структурні та поведінкові моделі / Structural and Behavioural Models
+1. The Concept of Domain Engineering
+1. Domain Specific Languages
+   1. Embedded Domain Specific Languages
+   2. External Domain Specific Languages
+   3. Learning Context
+2. Tools for Domain Modeling
+   1. Unified Modeling Language. An Overview
+   2. Structural and Behavioural Models
 3. Concepts of Formal Languages Theory
    1. The Concept of a Formal Language
    2. Semantics of a Language
