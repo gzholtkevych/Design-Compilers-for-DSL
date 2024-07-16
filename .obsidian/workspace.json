@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "INDEX.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -146,8 +146,11 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "8c5e7312c9488791",
+  "active": "75487b8598383c09",
   "lastOpenFiles": [
+    "_Notebooks and Sources Files/DSLCC/keywords.py",
+    "_Notebooks and Sources Files/DSLCC",
+    "_Notebooks and Sources Files/Нова папка",
     "preamble.sty",
     "_Content/DomainEngineering-Concept.md",
     "INDEX.md",
