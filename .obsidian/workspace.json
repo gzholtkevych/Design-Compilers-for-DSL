@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "_Content/TextPreprocessing.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -149,8 +149,8 @@
   "active": "8c5e7312c9488791",
   "lastOpenFiles": [
     "_Content/Alphabet.md",
-    "_Content/TextPreprocessing.md",
     "INDEX.md",
+    "_Content/TextPreprocessing.md",
     "_Templates/Note.md",
     "_Templates",
     "_Notebooks and Sources Files/DSLCC/keywords.py",
