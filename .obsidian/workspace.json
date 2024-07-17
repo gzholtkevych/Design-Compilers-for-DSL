@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INDEX.md",
+                "file": "_Content/TextPreprocessing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INDEX.md",
+                "file": "_Content/TextPreprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INDEX.md",
+                "file": "_Content/TextPreprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INDEX.md"
+                "file": "_Content/TextPreprocessing.md"
               }
             }
           }
@@ -146,14 +146,18 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "75487b8598383c09",
+  "active": "8c5e7312c9488791",
   "lastOpenFiles": [
+    "_Content/Alphabet.md",
+    "_Content/TextPreprocessing.md",
+    "INDEX.md",
+    "_Templates/Note.md",
+    "_Templates",
     "_Notebooks and Sources Files/DSLCC/keywords.py",
     "_Notebooks and Sources Files/DSLCC",
     "_Notebooks and Sources Files/Нова папка",
     "preamble.sty",
     "_Content/DomainEngineering-Concept.md",
-    "INDEX.md",
     "_Embeddings/math-ukr-class.jpg",
     "_Embeddings",
     "_Content",
