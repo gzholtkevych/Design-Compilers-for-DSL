@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
-                "mode": "source",
-                "source": false
+                "file": "_Content/Alphabet.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Content/Alphabet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Content/Alphabet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Content/TextPreprocessing.md"
+                "file": "_Content/Alphabet.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "8c5e7312c9488791",
   "lastOpenFiles": [
-    "_Content/Alphabet.md",
-    "INDEX.md",
+    "_Notebooks and Sources Files/test.py",
     "_Content/TextPreprocessing.md",
+    "_Content/Alphabet.md",
+    "_Notebooks and Sources Files/DSL-design.code-workspace",
+    "_Notebooks and Sources Files/__pycache__/text_preprocessing.cpython-38.pyc",
+    "_Notebooks and Sources Files/__pycache__",
+    "_Notebooks and Sources Files/text_preprocessing.py",
+    "INDEX.md",
     "_Templates/Note.md",
     "_Templates",
     "_Notebooks and Sources Files/DSLCC/keywords.py",
@@ -159,8 +164,6 @@
     "preamble.sty",
     "_Content/DomainEngineering-Concept.md",
     "_Embeddings/math-ukr-class.jpg",
-    "_Embeddings",
-    "_Content",
-    "_Templates"
+    "_Embeddings"
   ]
 }

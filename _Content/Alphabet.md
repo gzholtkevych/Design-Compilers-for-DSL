@@ -15,7 +15,7 @@
 - цифри (***digits***);
 - пробільні символи (***whitespaces***);
 - знаки (***signs***);
-- інші символи.
+- інші символи (***other_symbols***).
 
 Ця класифікація є умовною і змінюється від мови до мови.
 Ми будемо вважати, що символи (***symbols***) і відповідні перелічені вище їх підмножини визначаються наступними предикатами
@@ -37,6 +37,12 @@ def iswhitespace(x) -> bool:
 def issign(x) -> bool:
 	signs = "+-*/><="  # this item can be changed
 	return issymbol(x) and x in signs
+
+def isother(x) -> bool:
+	return issymbol(x) and not (ischar(x) or
+								isdigit(x) or
+								iswhitespace(x) or
+								issign(x))
 ```
 
 Роль класів літер і цифр є зрозумілою.
