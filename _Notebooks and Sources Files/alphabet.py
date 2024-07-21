@@ -1,4 +1,5 @@
 from typing import Set
+from functools import reduce
 
 
 __MINCODE = 32   # minimal and
@@ -97,3 +98,12 @@ def addother(x: str) -> None:
         x in __SIGNS or x in __WHITESPACES):
         raise ValueError("the symbol '{x}' is already used")
     __OTHERS.add(x)
+    
+    
+def wsstr() -> str:
+    """returns the string containing all whitespaces
+
+    Returns:
+        str: string of whitespaces
+    """    
+    return reduce(lambda x, y: f"{x}{y}", __WHITESPACES)

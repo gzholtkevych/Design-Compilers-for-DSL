@@ -1,64 +1,48 @@
 from typing import List
+from alphabet import *
 
 
-alphabet = {}
-alphabet['chars'] = {chr(i) for i in range(ord('a'), ord('z') + 1)}.union(
-    {chr(i) for i in range(ord('A'), ord('Z') + 1)})
-alphabet['digits'] = {chr(i) for i in range(ord('0'), ord('9') + 1)}
+def text_preprocessing(text: str) -> List[str]:
+    """parts text into pieces such that
+    1) each piece does not contain whitespaces
+    2) if a piece contains a sign then it contains only signs
+    3) after joining all the pieces, the obtained string equals 'text'
+       without whitespaces.
 
+    Args:
+        text (str): the analized text
 
-def issymbol(x) -> bool:
-	return isinstance(x, str) and len(x) == 1
+    Raises:
+        ValueError: extraneous symbols been found in 'text'
 
-
-def ischar(x) -> bool:
-	return issymbol(x) and (ord('a') <= ord(x) <= ord('z') or
-	                        ord('A') <= ord(x) <= ord('Z'))
-
-
-def isdigit(x) -> bool:
-	return issymbol(x) and (ord('0') <= ord(x) <= ord('9'))
-
-
-def iswhitespace(x) -> bool:
-	whitespaces = " \n\t"  # this item can be changed
-	return issymbol(x) and x in whitespaces
-
-
-def issign(x) -> bool:
-	signs = "+-*/><="  # this item can be changed
-	return issymbol(x) and x in signs
-
-
-def isother(x) -> bool:
-	return issymbol(x) and not (ischar(x) or
-								isdigit(x) or
-								iswhitespace(x) or
-								issign(x))
-
-
-def remove_whitespaces(text: str, whitespaces: str=" \n\t") -> List[str]:
-    # trim whitespaces from head and tail
-    text_for_preprocessing, result = text.strip(whitespaces), []
-    # first positions of whitespaces
-    trials = list(filter(lambda x: x >= 0,
-                         [text_for_preprocessing.find(c) for
-                          c in whitespaces]))
-    while trials:  # break if there is no whitespace
-        index = min(trials)  # position of the first whitespace
-        result.append(text_for_preprocessing[: index])
-        text_for_preprocessing = text_for_preprocessing[index : ]
-        text_for_preprocessing = text_for_preprocessing.lstrip(whitespaces)
-        trials = list(filter(lambda x: x >= 0,
-                             [text_for_preprocessing.find(c) for
-                              c in whitespaces]))
-    result.append(text_for_preprocessing)
-    return result
-
-
-def split_operators(text: str, signs: str="+-*/^%") -> List[str]:
-    if text:
-        if issign(text[0])
-        pass
-    else:
-        return []
+    Returns:
+        List[str]: list of pieces
+    """    
+    # find extraneous symbols in 'text'
+    bad_symbols = " ".join(c for c in text if not issymbol(c))
+    if bad_symbols:
+        raise ValueError(
+            f"the text contains extraneous symbols '{bad_symbols}'")
+    # part 'text' into pieces
+    text_rest, outcome = text, []
+    while text_rest:
+        text_rest = text_rest.lstrip(wsstr())
+        if not text_rest:
+            break
+        if text_rest[0] in signs():
+            for ic, c in enumerate(text_rest):
+                if c not in signs():
+                    break
+                else:
+                    continue
+            outcome.append(text_rest[: ic])
+            text_rest = text_rest[ic :]
+            continue
+        for ic, c in enumerate(text_rest):
+            if c in signs() or c in whitespaces():
+                break
+            else:
+                continue
+        outcome.append(text_rest[: ic])
+        text_rest = text_rest[ic :]
+    return outcome

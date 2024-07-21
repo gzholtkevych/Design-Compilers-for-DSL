@@ -20,8 +20,9 @@
 Ця класифікація є умовною і змінюється від мови до мови.
 Ми будемо вважати, що символи (***symbols***) і відповідні перелічені вище їх підмножини визначаються модулем ``alphabet``.
 
-```python title:"Module alphabet" linenos:true
+```python title:"Модуль alphabet" linenos:true
 from typing import Set
+from functools import reduce
 
 
 __MINCODE = 32  # minimal and
@@ -118,8 +119,17 @@ def addother(x: str) -> None:
 		x in __SIGNS or x in __WHITESPACES):
 		raise ValueError(f"the symbol '{x}' is already used")
 	__OTHERS.add(x)
+
+
+def wsstr() -> str:
+	"""returns the string containing all whitespaces
+	Returns:
+		str: string of whitespaces
+	"""
+	return reduce(lambda x, y: f"{x}{y}", __WHITESPACES)
 ```
 
 Роль класів літер і цифр є зрозумілою.
 Пробільні символи змістовного навантаження не несуть і використовуються лише для позначення кінця фрагменту тексту.
 Знаки використовуються для побудови інфіксних представлень бінарних операцій, які мають вигляд "`операнд1 оператор операнд2`". Саме оператори представляються послідовностями знаків, як, наприклад, `<=` чи `**`. 
+Іншими символами можуть бути такі, як, наприклад, десяткова крапка.
