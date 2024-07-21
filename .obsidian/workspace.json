@@ -148,6 +148,7 @@
   },
   "active": "8c5e7312c9488791",
   "lastOpenFiles": [
+    "_Notebooks and Sources Files/__pycache__/alphabet.cpython-38.pyc",
     "_Notebooks and Sources Files/test.py",
     "_Content/TextPreprocessing.md",
     "_Content/Alphabet.md",
@@ -163,7 +164,6 @@
     "_Notebooks and Sources Files/Нова папка",
     "preamble.sty",
     "_Content/DomainEngineering-Concept.md",
-    "_Embeddings/math-ukr-class.jpg",
-    "_Embeddings"
+    "_Embeddings/math-ukr-class.jpg"
   ]
 }
