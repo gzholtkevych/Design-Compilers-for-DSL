@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "9a0ec0e5c42f5016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Content/CompilatorStructure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Content/CompilatorStructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Content/CompilatorStructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Content/TextPreprocessing.md"
+                "file": "_Content/CompilatorStructure.md"
               }
             }
           }
@@ -146,10 +159,15 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "8c5e7312c9488791",
+  "active": "9a0ec0e5c42f5016",
   "lastOpenFiles": [
-    "_Content/Alphabet.md",
+    "_Embeddings/ContextDiagram.png",
+    "_Content/CompilatorStructure.md",
+    "_Embeddings/Pasted image 20240911140529.png",
+    "_Embeddings/math-ukr-class.jpg",
     "_Content/TextPreprocessing.md",
+    "_Content/DomainEngineering-Concept.md",
+    "_Content/Alphabet.md",
     "INDEX.md",
     "_Notebooks and Sources Files/__pycache__/alphabet.cpython-38.pyc",
     "_Notebooks and Sources Files/test.py",
@@ -161,8 +179,6 @@
     "_Templates",
     "_Notebooks and Sources Files/DSLCC/keywords.py",
     "_Notebooks and Sources Files/DSLCC",
-    "_Notebooks and Sources Files/Нова папка",
-    "_Content/DomainEngineering-Concept.md",
-    "_Embeddings/math-ukr-class.jpg"
+    "_Notebooks and Sources Files/Нова папка"
   ]
 }
