@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e87f40f3ea6a3542",
+        "id": "7ce416c7abac5c1e",
         "type": "tabs",
         "children": [
           {
-            "id": "8c5e7312c9488791",
+            "id": "d26875bb8d9ed512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Content/Grammar.md",
                 "mode": "preview",
-                "source": true
-              }
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Grammar"
             }
           }
         ]
@@ -33,16 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75487b8598383c09",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "7f7773ff1f0e4c9e",
             "type": "leaf",
             "state": {
@@ -54,7 +46,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Пошук"
             }
           },
           {
@@ -62,10 +56,25 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          },
+          {
+            "id": "8f5812d6323f4025",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловий менеджер"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Embeddings/math-ukr-class.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Зворотні посилання для math-ukr-class"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Content/TextPreprocessing.md",
+                "file": "_Embeddings/math-ukr-class.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Вихідні посилання з math-ukr-class"
             }
           },
           {
@@ -116,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Мітки"
             }
           },
           {
@@ -125,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Content/TextPreprocessing.md"
-              }
+                "file": "_Embeddings/math-ukr-class.jpg"
+              },
+              "icon": "lucide-list",
+              "title": "Вміст math-ukr-class"
             }
           }
         ]
@@ -146,23 +163,29 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "8c5e7312c9488791",
+  "active": "d26875bb8d9ed512",
   "lastOpenFiles": [
     "_Content/Alphabet.md",
+    "_Content/DomainEngineering-Concept.md",
     "_Content/TextPreprocessing.md",
+    "_Content/Grammar.md",
+    "_Content/Untitled Diagram.svg",
+    "_Content/Untitled Diagram 1.svg",
     "INDEX.md",
+    "_Embeddings/math-ukr-class.jpg",
+    "_Templates/note.template.md",
+    "Без назви.canvas",
+    "Без назви 1.canvas",
+    "_Content/2024-09-12.md",
     "_Notebooks and Sources Files/__pycache__/alphabet.cpython-38.pyc",
     "_Notebooks and Sources Files/test.py",
     "_Notebooks and Sources Files/DSL-design.code-workspace",
     "_Notebooks and Sources Files/__pycache__/text_preprocessing.cpython-38.pyc",
     "_Notebooks and Sources Files/__pycache__",
     "_Notebooks and Sources Files/text_preprocessing.py",
-    "_Templates/Note.md",
     "_Templates",
     "_Notebooks and Sources Files/DSLCC/keywords.py",
     "_Notebooks and Sources Files/DSLCC",
-    "_Notebooks and Sources Files/Нова папка",
-    "_Content/DomainEngineering-Concept.md",
-    "_Embeddings/math-ukr-class.jpg"
+    "_Notebooks and Sources Files/Нова папка"
   ]
 }
