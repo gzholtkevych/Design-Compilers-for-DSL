@@ -1,5 +1,5 @@
 {
   "template": "_Templates/daily.template",
   "format": "YYYY-MM-DD HH-mm",
-  "folder": "Draft notes"
+  "folder": "Drafts"
 }

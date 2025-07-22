@@ -3,5 +3,6 @@
   "attachmentFolderPath": "_Embeddings",
   "newFileLocation": "root",
   "newFileFolderPath": "_Content",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "newLinkFormat": "relative"
 }

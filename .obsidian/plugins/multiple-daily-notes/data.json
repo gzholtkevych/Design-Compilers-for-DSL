@@ -2,7 +2,7 @@
   "settings": [
     {
       "templateFileLocation": "_Templates/daily.template.md",
-      "newFileFolder": "_Content",
+      "newFileFolder": "Drafts",
       "dateFormat": "YYYY-MM-DD HH-mm",
       "timeOffset": ""
     }
