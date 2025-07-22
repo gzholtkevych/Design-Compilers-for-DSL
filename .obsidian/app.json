@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "_Embeddings",
-  "newFileLocation": "folder",
+  "newFileLocation": "root",
   "newFileFolderPath": "_Content",
   "showInlineTitle": false
 }

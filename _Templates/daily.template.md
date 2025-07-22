@@ -1,6 +1,6 @@
 # Створено: {{title}}
 
-# Тема картки: %% Insert text %%
+# Стовується: %% Insert text %%
 
 %% Insert card content %%
 
