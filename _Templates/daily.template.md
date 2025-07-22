@@ -1,11 +1,6 @@
-# Created: {{title}}
+# Створено: {{title}}
 
-## About what is the note?
+# Тема картки: %% Insert text %%
 
-%%An answer %%
-
-
-## Content
-
-%%Presentation%%
+%% Insert card content %%
 
