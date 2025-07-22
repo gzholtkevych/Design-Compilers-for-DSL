@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Content/Alphabet.md",
+                "file": "_Content/CompilatorStructure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alphabet"
+              "title": "CompilatorStructure"
             }
           },
           {
@@ -196,8 +196,9 @@
   },
   "active": "638731a80533a790",
   "lastOpenFiles": [
-    "_Content/2025-05-07 14-04.md",
+    "_Embeddings/ContextDiagram.png",
     "_Content/Alphabet.md",
+    "_Content/2025-05-07 14-04.md",
     "_Content/2025-05-07 14-05.md",
     "_Content/Grammar.md",
     "_Templates/daily.template.md",
