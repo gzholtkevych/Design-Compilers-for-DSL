@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Content/CompilatorStructure.md",
+                "file": "Grammar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CompilatorStructure"
+              "title": "Grammar"
+            }
+          },
+          {
+            "id": "9d0b173fbd40a06c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Наскрізний приклад.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 Наскрізний приклад"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -100,7 +114,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
+              "title": "Files"
             }
           }
         ],
@@ -185,36 +199,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "multiple-daily-notes:Open daily note: _Templates/daily.template.md": false,
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
-      "daily-notes:Сьогоднішня нотатка": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "multiple-daily-notes:Open daily note: _Templates/daily.template.md": false
     }
   },
-  "active": "638731a80533a790",
+  "active": "9d0b173fbd40a06c",
   "lastOpenFiles": [
     "_Embeddings/ContextDiagram.png",
     "_Content/Alphabet.md",
     "_Content/2025-05-07 14-04.md",
     "_Content/2025-05-07 14-05.md",
-    "_Content/Grammar.md",
-    "_Templates/daily.template.md",
-    "_Content/DomainEngineering-Concept.md",
     "_Content/2025-05-07 13-55.md",
     "_Content/2025-05-07 13-52.md",
     "_Content/2024-09-12.md",
     "_Content/2025-05-07.md",
-    "_Content/CompilatorStructure.md",
     "_Content/2025-05-07 13-49.md",
-    "_Templates/note.template.md",
-    "_Content/TextPreprocessing.md",
+    "TextPreprocessing.md",
     "_Content/Untitled Diagram.svg",
     "_Content/Untitled Diagram 1.svg",
-    "INDEX.md",
-    "_Embeddings/math-ukr-class.jpg",
     "Без назви.canvas",
     "Без назви 1.canvas",
     "_Notebooks and Sources Files/__pycache__/alphabet.cpython-38.pyc",
