@@ -4,5 +4,8 @@
   "newFileLocation": "root",
   "newFileFolderPath": "_Content",
   "showInlineTitle": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "userIgnoreFilters": [
+    "_Templates/"
+  ]
 }

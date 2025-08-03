@@ -1,6 +1,6 @@
-# Створено: {{title}}
+# Створено: {{date: YYYY-MM-DD HH-mm}}
 
-# Стовується: %% Insert text %%
+# Стосується: %% Insert text %%
 
 %% Insert card content %%
 
