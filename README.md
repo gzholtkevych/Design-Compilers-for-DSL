@@ -27,7 +27,7 @@ _вибірковий курс для студентів рівня підгот
 
 1. [Alfred V. Aho, Jeffrey D. Ullman. *The theory of parsing, translation, and compiling*, in 2 vols,](https://dl.acm.org/doi/pdf/10.5555/578789), 1972.  
 *Класична книга з теорії компіляторів від лауреатів Тьюрингівсьуої премії. Відома як "Книга Дракона".*
-3. Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. *Compilers: Principles, Techniques, and Tools*, 2nd edition, 2006.  
+3. [Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. *Compilers: Principles, Techniques, and Tools*, 2nd edition, 2006.](https://mrce.in/ebooks/Compilers%20Principles,%20Techniques,%20&%20Tools%202nd%20Ed.pdf)  
 *Сучасний варіант попереднього джерела.*
 5. Martin Fowler, with Rebecca Parsons. *Domain Specific Languages*, 2010.  
 *Детальний підручник з предметно-орієнтованих мов.*
