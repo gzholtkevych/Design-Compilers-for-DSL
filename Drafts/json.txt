@@ -1,0 +1,34 @@
+1. Лексичні класи:
+
+STR         -- рядок
+NUM         -- число
+COMMA       -- кома
+LRBR, RRBR  -- ліва та права квадратна дужка 
+LCBR, RCBR  -- ліва  та права фігурна дужка
+COL         -- двокрапка
+NONE        -- порожній ланцюжок (пропускається)
+
+2. Правила граматики
+
+Item = value | list | object
+
+value = STR | NUM
+
+list = LRBR, (NONE | COMMA, Item, (COMMA, Item)*), RRBR  
+
+object = LCBR, value, COL, Item, (COMMA, value, COL, Item)*, RCBR
+
+3. Правила трансляції
+
+value ==> <value> значення </value>
+
+list ==> <list> (<item> елемент списку </item>)* </list>
+
+object ==> <object> (<COMPONENT key=значення ключа пари> значення пари </COMPONENT>)+ </object>
+
+4. Завдання
+
+4.1. Створіть клас JSONSyntacticTree для представлення синтаксичного дерева.
+4.2. Реалізуйте трансляцію на основі шаблону Listener(відомий також як Observer чи Subscriber/Publisher).
+4.3. Реалізуйте трансляцію на основі шаблону Visitor.
+ 

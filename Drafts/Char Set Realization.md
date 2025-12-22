@@ -1,56 +1,62 @@
-----
-<font size="+1">Перейти до [[0 Про курс|ЗМІСТУ]]</font>
+# Реалізація таблиці символів
 
-----
-<H1>Алфавіт. Класифікація символів</H1>
+%% Insert text %%
 
-Зазвичай, всі мовні конструкції будуються як послідовності ***символів алфавіту***.
+## Пов'язано з
 
-**С теоретичної точки зору**, символи, можуть бути елементами будь-якої скінченної множини, яка і зветься ***алфавітом***. Важливою властивістю цієї множини є те, що існує метод надійно розрізняти її елементи, які до того ж вважаються позбавленими будь-якої структури.
+- [[00 Technology|Технологія]]
+%% - maybe other reference %%
 
-**З практичної точки зору**, символи представляються полями бітів у відповідності до кодових таблиць таких як [***ASCII*** (*American Standard Code for Information Interchange*)](https://uk.wikipedia.org/wiki/ASCII) або [***Unicode***](https://uk.wikipedia.org/wiki/%D0%AE%D0%BD%D1%96%D0%BA%D0%BE%D0%B4).
+## Реалізує
 
-Нам знадобиться розрізняти такі підмножини символів:
-- літери (***letters***);
-- цифри (***digits***);
-- пробільні символи (***whitespaces***);
-- знаки (***signs***);
-- інші символи (***others***).
+- [[Alphabet|Алфавіт]]
 
-Ця класифікація є умовною і змінюється від мови до мови.
-Ми будемо вважати, що символи (***symbols***) і відповідні перелічені вище їх підмножини визначаються модулем ``alphabet``.
+---
 
-```python title:"Модуль alphabet" linenos:true
+Ми будемо вважати, що символи (***chars***) і відповідні їх підмножин —
+
+- літер (***letters***),
+- цифр (***digits***),
+- пробільних символів (***whitespaces***),
+- знаків (***signs***),
+- інших символів (***others***)
+
+— визначаються класом ``Char``, приклад реалізації якого наведено нижче.
+
+```python title:"Class Alphabet" linenos:true
 from typing import Set
 from functools import reduce
 
 
-__MINCODE = 32  # minimal and
-__MAXCODE = 126 # maximal values of an admissible code
+class Char:
 
+	__MINCODE = 32  # minimal and
+	__MAXCODE = 126 # maximal values of an admissible code
 
-__LETTERS = ( # small and capital latin letters
-	{chr(ic) for ic in range(ord('a'), ord('z') + 1)} |
-	{chr(ic) for ic in range(ord('A'), ord('Z') + 1)})
+	__LETTERS = ("".join( # small latin letters
+		[chr(ic) for ic in range(ord('a'), ord('z') + 1)]) +
+		"".join( # capital latin letters
+		[chr(ic) for ic in range(ord('A'), ord('Z') + 1)]) +
+		# underscore symbol
+		"_"
+	)
 
-__DIGITS = { # decimal digits
-	chr(ic) for ic in range(ord('0'), ord('9') + 1)}
+	__DIGITS = "".join( # decimal digits
+		[chr(ic) for ic in range(ord('0'), ord('9') + 1)])
 
-__SIGNS = set() # is defined by a user
+	__SIGNS = "" # is defined by a user
 
-__WHITESPACES = { # is extended by a user
-	' ', '\n', '\t'}
+	__WHITESPACES = "".join( # is extended by a user
+		[' ', '\n'])
 
-__OTHERS = { # is extended by a user
-	'(', ')', '.'}
+	__OTHERS = "" # is defined by a user
 
-
-def issymbol(x: str) -> bool:
-	"""checks whether a string is a symbol of the alphabet
-	Args:
-		x (str): the string for checking
+	def issymbol(x: str) -> bool:
+		"""checks whether a char is a symbol
+		Args:
+			x (str of length 1): the string for checking
 	Returns:
-		True:  if 'x' is a symbol of the alphabet
+		True:  if x is a symbol of the alphabet
 		False: otherwise
 	"""
 	if not isinstance(x, str):

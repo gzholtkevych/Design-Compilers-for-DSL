@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "-path:_Templates -path:Drafts  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "file:Почни звідси",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:MoC",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 1,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.495841995841996,
+  "repelStrength": 10.4989604989605,
+  "linkStrength": 0.296257796257796,
+  "linkDistance": 30,
+  "scale": 1,
+  "close": true
+}
