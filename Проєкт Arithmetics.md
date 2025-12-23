@@ -1,11 +1,11 @@
-# {{title}}
+# Проєкт Arithmetics
 
 #MoC
 %% Insert context %%
 ## Контекст нотатки
 
+- [[Почни звідси]]
 %%
-- reference
 - maybe other references
 %%
 

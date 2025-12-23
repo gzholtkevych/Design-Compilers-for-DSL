@@ -1,9 +1,9 @@
-# {{title}}
+# Загальний опис проєкту Arithmetics
 
 ## Контекст нотатки
 
+- [[Проєкт Arithmetics]]
 %%
-- reference
 - maybe other reference
 %%
 ## Зміст нотатки
