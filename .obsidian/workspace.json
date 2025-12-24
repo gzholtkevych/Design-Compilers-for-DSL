@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Базові поняття.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Базові поняття"
+            }
+          },
+          {
+            "id": "eaabe01e22769fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Почни звідси.md",
                 "mode": "source",
                 "source": false
@@ -22,20 +36,45 @@
             }
           },
           {
-            "id": "eaabe01e22769fd4",
+            "id": "25a9d70a229a4d1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Програмні інструменти.md",
+                "file": "Алфавіт.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Програмні інструменти"
+              "title": "Алфавіт"
+            }
+          },
+          {
+            "id": "2c95819e1b1d71b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Зіставлення.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Зіставлення"
+            }
+          },
+          {
+            "id": "939e307b99b8352d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -181,13 +220,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2c95819e1b1d71b6",
   "lastOpenFiles": [
-    "Програмні інструменти.md",
+    "Алфавіт.md",
+    "Зіставлення.md",
+    "Drafts/Chain.md",
+    "Базові поняття.md",
     "Почни звідси.md",
+    "Програмні інструменти.md",
+    "Проєкт Network.md",
+    "Проєкт Arithmetics.md",
+    "Доменно-орієнтована розробка.md",
     "Джерела.md",
     "Метамодель проєкту Arithmetics.md",
-    "Проєкт Arithmetics.md",
     "Загальний опис проєкту Arithmetics.md",
     "Мотивація.md",
     "Виконувана модель.md",
@@ -195,20 +240,14 @@
     "Розробка ПЗ як моделювання.md",
     "_Templates/MOC.template.md",
     "_Templates/note.template.md",
-    "Базові поняття.md",
     "Предметно-орієнтована мова. Концепція.md",
     "Анотація.md",
     "Регулярні вирази. Базовий синтаксис.md",
-    "Drafts/Chain.md",
     "Регулярні вирази.md",
     "Технологія розробки DSL.md",
     "textX. Семантична інтерпретація.md",
     "textX. Синтез парсера.md",
     "textX. Визначення синтаксису.md",
-    "Лінійки продуктів. Концепція.md",
-    "Інженерія домену. Концепція.md",
-    "Доменно-орієнтована розробка.md",
-    "Drafts/Alphabet.md",
     "Drafts",
     "_Embeddings/ContextDiagram.png",
     "_Content/Untitled Diagram.svg",
