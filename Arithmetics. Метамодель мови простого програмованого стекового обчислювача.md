@@ -10,20 +10,20 @@
 
 ```textx
 Program:
-	instructions+=Instruction['\n']
-;
+    instructions+=Instruction
+; 
 
 Instruction: Save | Eval;
 
 Save:
-	'save' operand=INT
+    'save' operand=INT
 ;
 
 Eval:
-	'eval' operand=OpSign
+    'eval' operand=OpSign
 ;
 
-OpSign: /^[\+\-\*/%]$/;
+OpSign: /[-+*\/%]/;
 ```
 
 ```mermaid
@@ -42,5 +42,5 @@ classDiagram
 	Program "1" o-- "1..*" Instruction: instructions
 	Instruction <|-- Save
 	Instruction <|-- Eval
-	note for Eval "OpSign обмежує значення operand тими рядками,<br/>що відповідають шаблону /^[\\+\\-\\*/%]$/"
+	note for Eval "OpSign обмежує значення operand тими рядками,<br/>що відповідають шаблону r'^[+-*\\/%]$'"
 ```
