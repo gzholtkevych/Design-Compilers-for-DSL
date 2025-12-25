@@ -1,10 +1,10 @@
-# Проєкт Arithmetics
+# Arithmetics
 
 #MoC
 %% Insert context %%
 ## Контекст нотатки
 
-- [[Почни звідси]]
+- [[textX]]
 %%
 - maybe other references
 %%
@@ -19,4 +19,6 @@ SORT file.name ASC
 ```
 
 %% Insert description if it is needed %%
-%%## Загальний опис
+## Загальний опис
+
+**Arithmetics** є навчальним міні-проєктом, за допомогою якого ілюструється використання інструментів, що надає textX.

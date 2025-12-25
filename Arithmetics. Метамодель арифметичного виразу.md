@@ -1,8 +1,8 @@
-# Метамодель проєкту Arithmetics
+# Метамодель арифметичного виразу 
 
 ## Контекст нотатки
 
-- [[Проєкт Arithmetics]]
+- [[Arithmetics]]
 %%
 - maybe other reference
 %%
