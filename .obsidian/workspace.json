@@ -71,7 +71,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           }
         ],
@@ -156,13 +156,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
+      "workspaces:Керування просторами": false,
       "homepage:Open homepage": false,
       "bases:Create new base": false
     }
@@ -173,6 +173,7 @@
     "_Templates/MOC.template.md",
     "Arithmetics. Метамодель мови простого програмованого стекового обчислювача.md",
     "Arithmetics.md",
+    "Arithmetics. Простий програмований стековий обчислювач.md",
     "textX.md",
     "Arithmetics. Завдання.md",
     "Arithmetics. Метамодель арифметичного виразу.md",
@@ -194,7 +195,6 @@
     "Предметно-орієнтована мова. Концепція.md",
     "Анотація.md",
     "Регулярні вирази. Базовий синтаксис.md",
-    "Регулярні вирази.md",
     "Drafts",
     "_Embeddings/ContextDiagram.png",
     "_Content/Untitled Diagram.svg",

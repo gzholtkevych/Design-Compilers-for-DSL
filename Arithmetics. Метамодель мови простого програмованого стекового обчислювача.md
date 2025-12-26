@@ -42,5 +42,5 @@ classDiagram
 	Program "1" o-- "1..*" Instruction: instructions
 	Instruction <|-- Save
 	Instruction <|-- Eval
-	note for Eval "OpSign обмежує значення operand тими рядками,<br/>що відповідають шаблону r'^[+-*\\/%]$'"
+	note for Eval "OpSign обмежує значення атрибуту 'operand'<br/>тими рядками,що відповідають шаблону<br/>r'^[+-*\\/%]$'"
 ```
