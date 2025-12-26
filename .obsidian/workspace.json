@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arithmetics. Метамодель мови простого програмованого стекового обчислювача.md",
+                "file": "_Templates/MOC.template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arithmetics. Метамодель мови простого програмованого стекового обчислювача"
+              "title": "MOC.template"
             }
           }
         ]
@@ -169,11 +169,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Почни звідси.md",
+    "_Templates/MOC.template.md",
+    "Arithmetics. Метамодель мови простого програмованого стекового обчислювача.md",
     "Arithmetics.md",
     "textX.md",
     "Arithmetics. Завдання.md",
-    "Почни звідси.md",
-    "Arithmetics. Метамодель мови простого програмованого стекового обчислювача.md",
     "Arithmetics. Метамодель арифметичного виразу.md",
     "Загальний опис проєкту Arithmetics.md",
     "Алфавіт.md",
@@ -189,7 +190,6 @@
     "Виконувана модель.md",
     "Моделі.md",
     "Розробка ПЗ як моделювання.md",
-    "_Templates/MOC.template.md",
     "_Templates/note.template.md",
     "Предметно-орієнтована мова. Концепція.md",
     "Анотація.md",
