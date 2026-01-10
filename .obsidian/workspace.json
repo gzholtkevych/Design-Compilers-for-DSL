@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/MOC.template.md",
-                "mode": "source",
+                "file": "Почни звідси.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOC.template"
+              "title": "Почни звідси"
             }
           }
         ]
@@ -71,7 +71,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
+              "title": "Files"
             }
           }
         ],
@@ -156,19 +156,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
-      "workspaces:Керування просторами": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "homepage:Open homepage": false,
       "bases:Create new base": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Базові поняття.md",
+    "Граматика виразів парсингу.md",
+    "Контекстно-вільні граматики.md",
+    "Формальна граматика.md",
+    "Drafts/Generative Grammar Definition.md",
+    "Ланцюжок символів.md",
+    "Формальна мова.md",
+    "Алфавіт.md",
+    "_Embeddings/ContextDiagram.png",
+    "Drafts/Chain.md",
     "Почни звідси.md",
     "_Templates/MOC.template.md",
     "Arithmetics. Метамодель мови простого програмованого стекового обчислювача.md",
@@ -178,25 +188,15 @@
     "Arithmetics. Завдання.md",
     "Arithmetics. Метамодель арифметичного виразу.md",
     "Загальний опис проєкту Arithmetics.md",
-    "Алфавіт.md",
     "textX. Визначення синтаксису.md",
-    "Базові поняття.md",
     "Зіставлення.md",
-    "Drafts/Chain.md",
     "Програмні інструменти.md",
     "Проєкт Network.md",
     "Доменно-орієнтована розробка.md",
     "Джерела.md",
     "Мотивація.md",
     "Виконувана модель.md",
-    "Моделі.md",
-    "Розробка ПЗ як моделювання.md",
-    "_Templates/note.template.md",
-    "Предметно-орієнтована мова. Концепція.md",
-    "Анотація.md",
-    "Регулярні вирази. Базовий синтаксис.md",
     "Drafts",
-    "_Embeddings/ContextDiagram.png",
     "_Content/Untitled Diagram.svg",
     "_Content/Untitled Diagram 1.svg",
     "Без назви.canvas",
