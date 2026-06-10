@@ -1,10 +1,7 @@
+---
+MoC:
+---
 # {{title}}
 
-## Контекст нотатки
-
-%%
-- reference
-- maybe other reference
-%%
-## Зміст нотатки
+%% Insert context %%
 

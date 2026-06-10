@@ -1,5 +1,5 @@
 ---
-MoC:
+MoC: true
 ---
 # {{title}}
 
